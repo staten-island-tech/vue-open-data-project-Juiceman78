@@ -30,7 +30,7 @@
 <script setup>
 import { ref } from 'vue'
 import { onMounted } from 'vue'
-import BarChart from '../components/BarChart.vue'
+import BarChart from '../views/BarChart.vue'
 
 const data = ref([])
 const labels = ref([])
